@@ -1,0 +1,220 @@
+﻿<?xml version="1.0"?>
+<!--Can I have a database please? -->
+
+<!-- Template -->
+<!-- childNode required for client -->
+<!-- childNode required for allowableamount. Function will test for (NaN) number or string and process accordingly. -->
+<!-- REO template is at EOF -->
+<!--
+	<pp>
+		<client>
+		</client>
+		<allowabletasks>
+		</allowabletasks>
+		<allowableamount>
+		</allowableamount>
+		<allowablestipulations>
+		</allowablestipulations>
+		<bidtasks>
+		</bidtasks>
+	</pp>
+	
+-->
+<poolparameters>
+
+<!-- P&P -->
+
+	<pp>
+		<client>EXAMPLECODE
+		</client>
+		<allowabletasks>Securing gate ($40.00).
+		</allowabletasks>
+		<allowabletasks>Repair fence (bid from site).
+		</allowabletasks>
+		<allowableamount>$400.00 Gate/Fence
+		</allowableamount>
+		<allowablestipulations>Life of Loan
+		</allowablestipulations>
+		<bidtasks>Install safety cover/board in-ground (regardless of gate/fence condition).
+		</bidtasks>
+		<bidtasks>Tarp above-ground (regardless of gate/fence condition).
+		</bidtasks>
+	</pp>
+	<pp>
+		<client>EXAMPLECODE2
+		</client>
+		<allowabletasks>Install safety cover (in-ground).
+		</allowabletasks>
+		<allowabletasks>Drain &amp; cover (above-ground).
+		</allowabletasks>
+		<allowabletasks>Drain &amp; cover (spa/hot tub).
+		</allowabletasks>
+		<allowableamount>1600
+		</allowableamount>
+		<allowablestipulations>As justified
+		</allowablestipulations>
+		<bidtasks>All other tasks.
+		</bidtasks>
+	</pp>
+	<pp>
+		<client>EXAMPLECODE3
+		</client>
+		<allowabletasks>Padlock gate (Post-Sale only)($40.00).
+		</allowabletasks>
+		<allowabletasks>Securing in-ground ($1050.00).
+		</allowabletasks>
+		<allowabletasks>Securing above-ground (in good condition) ($400.00).
+		</allowabletasks>
+		<allowabletasks>Removing above-ground (in poor condition) ($400.00).
+		</allowabletasks>
+		<allowabletasks>Securing hot-tubs &amp; spas (drain &amp; cover) ($50.00).
+		</allowabletasks>
+		<allowabletasks>Maintenance of pools, spas, &amp; hot tubs ($100.00/monthly).
+		</allowabletasks>
+		<allowabletasks>Winterization (if locally required, $200.00).
+		</allowabletasks>
+		<allowableamount>By task.
+		</allowableamount>
+		<bidtasks>All other tasks.
+		</bidtasks>
+	</pp>
+	
+<!-- REO -->	
+	
+	<reo>
+		<client>EXCODE
+		</client>
+		<initialtasks>Secure Gate
+		</initialtasks>
+		<initialtasks>Drain &amp; dismantle above ground (if no gate).
+		</initialtasks>
+		<allowabletasks>None.
+		</allowabletasks>
+		<allowableamount>0
+		</allowableamount>
+		<bidtasks>All Other Tasks.
+		</bidtasks>
+	</reo>
+	<reo>
+		<client>EXCODE2
+		</client>
+		<initialtasks>Secure Gate
+		</initialtasks>
+		<initialtasks>Drain &amp; dismantle above ground (if no gate).
+		</initialtasks>
+		<allowabletasks>None.
+		</allowabletasks>
+		<allowableamount>0
+		</allowableamount>
+		<bidtasks>All Other Tasks.
+		</bidtasks>
+	</reo>
+	<reo>
+		<client>EXCODE3
+		</client>
+		<initialtasks>Secure Gate.
+		</initialtasks>
+		<initialtasks>Drain, clean, refill, &amp; chemically treat.
+		</initialtasks>
+		<allowabletasks>Any repairs to put pool in working condition (Under pool allowable).
+		</allowabletasks>
+		<allowabletasks>Repair fence if allows securing (under H&amp;S allowable).
+		</allowabletasks>
+		<allowabletasks>If no fence/securing, install cover for in-ground (under H&amp;S allowable).
+		</allowabletasks>
+		<allowabletasks>If no fence/securing, dismantle &amp; remove above-ground (under H&amp;S allowable).
+		</allowabletasks>
+		<allowabletasks>Repair/replace pump (under H&amp;S allowable).
+		</allowabletasks>
+		<allowableamount>500
+		</allowableamount>
+		<allowablestipulations>Pool allowable - life of loan.
+		</allowablestipulations>
+		<allowablestipulations>H&amp;S: $1k per, $2k life of loan.
+		</allowablestipulations>
+		<bidtasks>All work that exceeds allowable.
+		</bidtasks>
+	</reo>
+	<reo>
+		<client>EXCODE4
+		</client>
+		<initialtasks>Secure gate as needed.
+		</initialtasks>
+		<initialtasks>Drain &amp; dismantle above-ground.
+		</initialtasks>
+		<initialtasks>Complete Drain, clean, refill for in-ground.
+		</initialtasks>
+		<allowabletasks>Pool repairs (to working condition; in-ground only).
+		</allowabletasks>
+		<allowableamount>1000
+		</allowableamount>
+		<allowablestipulations>At time of initial.
+		</allowablestipulations>
+		<bidtasks>Drain only for in-ground pool.
+		</bidtasks>
+		<bidtasks>Install safety mesh cover (in-ground).
+		</bidtasks>
+		<bidtasks>Acid wash (in-ground).
+		</bidtasks>
+		<bidtasks>Full winterization (in-ground).
+		</bidtasks>
+		<bidtasks>Bi-Weekly service.
+		</bidtasks>
+		<bidtasks>Larvacide Treatment.
+		</bidtasks>
+		<bidtasks>Repairs over allowable.
+		</bidtasks>
+	</reo>
+	<reo>
+		<client>EXCODE5
+		</client>
+		<initialtasks>Padlock gate.
+		</initialtasks>
+		<allowabletasks>Drain/Dismantle &amp; store (on property) above-ground (with broker approval).
+		</allowabletasks>
+		<allowabletasks>Repair/replace fence if pool not secure.
+		</allowabletasks>
+		<allowableamount>600
+		</allowableamount>
+		<allowableamount>400
+		</allowableamount>
+		<allowablestipulations>Pool
+		</allowablestipulations>
+		<allowablestipulations>Emergency repairs.
+		</allowablestipulations>
+		<bidtasks>Drain, clean, refill on broker's recommendation.
+		</bidtasks>
+		<bidtasks>All other tasks.
+		</bidtasks>
+	</reo>
+	<reo>
+		<clientEXCODE6
+		</client>
+		<initialtasks>None.
+		</initialtasks>
+		<allowabletasks>None.
+		</allowabletasks>
+		<allowableamount>0
+		</allowableamount>
+		<bidtasks>All tasks.
+		</bidtasks>
+	</reo>
+</poolparameters>
+<!-- Template
+
+	<reo>
+		<client>
+		</client>
+		<initialtasks>
+		</initialtasks>
+		<allowabletasks>
+		</allowabletasks>
+		<allowableamount>
+		</allowableamount>
+		<allowablestipulations>
+		</allowablestipulations>
+		<bidtasks>
+		</bidtasks>
+	</reo>
+	
+-->
