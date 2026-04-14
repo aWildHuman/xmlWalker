@@ -1,10 +1,12 @@
 xml file Templates:
 
 (childNode required for client)
+
 (childNode required for allowableamount. Function will test for (NaN) number or string and process accordingly.)
 
 
 P&P service line template
+```
 	<pp>
 		<client>
 		</client>
@@ -17,8 +19,9 @@ P&P service line template
 		<bidtasks>
 		</bidtasks>
 	</pp>
-	
+```
 REO service line Template
+```
 	<reo>
 		<client>
 		</client>
@@ -33,3 +36,4 @@ REO service line Template
 		<bidtasks>
 		</bidtasks>
 	</reo>
+```
