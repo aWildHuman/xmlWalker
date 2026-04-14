@@ -1,8 +1,10 @@
-<!-- xml file Template -->
-<!-- childNode required for client -->
-<!-- childNode required for allowableamount. Function will test for (NaN) number or string and process accordingly. -->
-<!-- REO template is at EOF -->
-<!--
+xml file Templates:
+
+(childNode required for client)
+(childNode required for allowableamount. Function will test for (NaN) number or string and process accordingly.)
+
+
+P&P service line template
 	<pp>
 		<client>
 		</client>
@@ -16,10 +18,7 @@
 		</bidtasks>
 	</pp>
 	
--->
-
-<!-- Template
-
+REO service line Template
 	<reo>
 		<client>
 		</client>
@@ -34,5 +33,3 @@
 		<bidtasks>
 		</bidtasks>
 	</reo>
-	
--->
