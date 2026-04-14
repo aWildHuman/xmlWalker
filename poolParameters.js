@@ -44,7 +44,7 @@ function keyValueDivs(){
 }
 var client;
 function writeSelector(sl){
-	var getXML=new ajaxGetXML('./Pool_Parameters.xml');
+	var getXML=new ajaxGetXML('./sample.xml');
 	var xmlData=getXML.responseXML;
 	var clients=new Array();
 	document.getElementById('infoDiv').innerHTML='';
@@ -70,7 +70,7 @@ function writeSelector(sl){
 	jsSelector.innerHTML=selector;
 }
 function showParameters(sl){
-	var getXML=new ajaxGetXML('/VCC/xml/Pool_Parameters.xml');
+	var getXML=new ajaxGetXML('./sample.xml');
 	var xmlData=getXML.responseXML;
 	client=document.getElementById('selector'+sl).value;
 	var infoDiv=document.getElementById('infoDiv');
